@@ -1,1 +1,47 @@
 // Add your custom styling here.
+
+.left { float: left; }
+.right { float: right; }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.center {
+  display: table;
+  text-align: center;
+}
+figcaption {
+  display: block;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+img, figure {
+  border-radius: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+body {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.meta > a {
+  font-size: 18px;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+.jumbotron {
+  padding: 40px 0;
+  font-size: 54px;
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+
+}
