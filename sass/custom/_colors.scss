@@ -15,6 +15,7 @@ $quote-color:       #F39C12; // Quote Color
 $text-color:        #BDC3C7; // Body Text
 $footer-color:      #bdc1c5; // Footer
 
-$text-color-light:  desaturate(lighten($text-color, 10), 1); // Light Body Text
+$text-color-light:      desaturate(lighten($text-color, 10), 1);      // Light Body Text
+$code-bg-color-inline:  desaturate(lighten($code-bg-color, 30), 20);  // Inline Code background
 
  And remove this line */

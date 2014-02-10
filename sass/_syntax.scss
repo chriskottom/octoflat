@@ -96,9 +96,10 @@ p, li {
     @extend .mono;
     display: inline-block;
     white-space: no-wrap;
-    background: $code-bg-color !important;
+    background: $code-bg-color-inline !important;
     font-size: .8em;
-    color: $base1 !important;
+    font-weight: bold;
+    color: $base3 !important;
     border: none;
     @include border-radius(.4em);
     padding: 0 .3em;
